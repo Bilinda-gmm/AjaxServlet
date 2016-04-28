@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="css/c_css.css">
 <script src="js/c_js.js"></script>
 
-<title>AjaxServlet</title>
+<title>AjaxServlet2</title>
 </head>
 <body>
 
