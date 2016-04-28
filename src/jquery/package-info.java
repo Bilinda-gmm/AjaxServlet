@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author slukic
+ * @author
  *
  */
 package jquery;

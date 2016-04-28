@@ -29,7 +29,25 @@ $(document).ready(function() {
 		});
 	});
 
-	
+	//top5 list
+	$('.ajax-link').click(function() {
+        $('.page-content').hide();
+        var category = $(this).attr("data-category");
+       // the URL for the request
+        $.get('Top5', {
+                // Parameter to be sent to server side
+                category : category
+        }, function(jsonResponse) {
+                $.each(jsonResponse, function(index, value) {
+                        $("#" + index).html(value);
+                        if (index % 2 == 0) {
+                                $("#" + index).addClass("lightblue");
+                        }
+                });                             
+                
+                $('.page-content').show();      
+        });
+});
 	
 	
 	
