@@ -48,7 +48,11 @@ $(document).ready(function() {
                 $('.page-content').show();      
         });
 });
-	
+	//refresh alle 2 Sekunden
+	 setInterval(function() {
+         var randomnumber=Math.floor(Math.random()*100)
+         $('#show').text('Random Number ==> '+randomnumber);
+ }, 2000);
 	
 	
 });

@@ -44,5 +44,15 @@
         </select>
 </div>
 
+	<div align="center">
+		<h3>Refresh DIV Content Without Reloading Page using jQuery</h3>
+		<br> Demo by Mohaideen - @ <a href="" target="_blank">SimpleCodeStuffs</a>
+		<br> <br>
+		<div id="show"
+			style="padding: 10px; border-radius: 9px; border: 3px solid #EE371A; width: 50%;">
+			This div will get refreshed for every 2 seconds..!
+		</div>
+	</div>
+	
 </body>
 </html>
